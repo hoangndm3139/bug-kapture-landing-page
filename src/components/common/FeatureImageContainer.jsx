@@ -1,21 +1,11 @@
-import { useState } from "react"
-import ShareIcon  from '@heroicons/react/24/outline/ShareIcon'
+import Image from "next/image"
 
-
-function FeatureImageContainer({imageUrl}){
-
-    const [toggleActive, setToogleActive] = useState(true)
-
-    const onChangeHandler = () => {
-
-    }
-    
-    return(
-        <div className="mt-6 ">
-            <img src={imageUrl} className="  h-5/6 object-contain w-full rounded-lg"/>
+function FeatureImageContainer({ imageUrl }) {
+    return (
+        <div className="mt-6">
+            <Image alt="" src={imageUrl} className="w-full rounded-lg" width={500} height={500}/>
         </div>
     )
-    
 }
 
 export default FeatureImageContainer

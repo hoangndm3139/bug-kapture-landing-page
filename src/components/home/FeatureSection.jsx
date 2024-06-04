@@ -11,7 +11,7 @@ function FeatureSection({title, leftText, showHeading}){
             <div className="max-w-6xl px-4 py-12 content-center justify-center">
                 <div className="grid  md:grid-cols-2 grid-cols-1 gap-8">
                     {
-                        !leftText && <FeatureImageContainer imageUrl="https://plus.unsplash.com/premium_photo-1681319553238-9860299dfb0f?auto=format&fit=crop&q=80&w=2831&ixlib=rb-4.0.3"/>
+                        !leftText && <FeatureImageContainer imageUrl="/img_project.png"/>
                     }
                     
                     <div className="text-center py-24">
@@ -20,7 +20,7 @@ function FeatureSection({title, leftText, showHeading}){
                     </div>
 
                     {
-                        leftText && <FeatureImageContainer imageUrl="https://plus.unsplash.com/premium_photo-1681319553238-9860299dfb0f?auto=format&fit=crop&q=80&w=2831&ixlib=rb-4.0.3"/>
+                        leftText && <FeatureImageContainer imageUrl="/img_project.png"/>
                     }
             </div>
             </div>

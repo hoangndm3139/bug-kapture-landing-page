@@ -1,7 +1,6 @@
 import { openModal } from "@/store/modalSlice"
 import { MODAL_BODY_TYPES } from "@/utils/globalConstantUtil"
 import CheckIcon from '@heroicons/react/24/outline/CheckIcon'
-import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
@@ -66,7 +65,7 @@ function PricingPlans() {
                     <div className="card-body pt-12 pb-16 items-center">
                         <h2 className="card-title text-xl">Free</h2>
                         <h2 className="font-bold mt-4 text-4xl">$0</h2>
-                        <Link href='/start-designing' className="w-full"><button className="btn !hover:text-white btn-sm mt-8 w-full btn-outline normal-case ">Start Your Project</button></Link>
+                        <Link href='/' className="w-full"><button className="btn !hover:text-white mt-8 w-full btn-outline normal-case ">Start Your Project</button></Link>
                         <div className="w-full mt-4">
                             <ul>
                                 {
@@ -82,10 +81,9 @@ function PricingPlans() {
 
                 <div className="card w-full mt-6  bg-base-100 shadow-xl hover:shadow-2xl">
                     <div className="card-body pt-12 pb-16 items-center  ">
-                        <div className="absolute -left-1 -top-7 p-3"><Image src="/img_most_popular.png" width={100} height={150} /></div>
                         <h2 className="card-title text-xl text-center">Advance </h2>
                         <h2 className="font-bold mt-4 text-4xl text-center inline-block">{price === "yearly" ? `$5` : `$8`} {price === "yearly" && <span className="text-xl line-through text-orange align-middle mr-2">$8</span>}<span className="text-xs align-middle font-light text-slate-500">/monthly</span></h2>
-                        <button className="btn btn-sm mt-8 btn-primary normal-case w-full" onClick={() => openPaymentPage("SUBSCRIPTION")}>Subscribe</button>
+                        <button className="btn mt-8 btn-primary normal-case w-full" onClick={() => openPaymentPage("SUBSCRIPTION")}>Subscribe</button>
                         <div className="w-full mt-4">
                             <ul>
                                 {
@@ -103,7 +101,7 @@ function PricingPlans() {
                     <div className="card-body pt-12 pb-16 items-center  ">
                         <h2 className="card-title text-xl text-center">Professional </h2>
                         <h2 className="font-bold mt-4 text-4xl text-center inline-block">{price === "yearly" ? `$12` : `$15`} {price === "yearly" && <span className="text-xl line-through text-orange align-middle mr-2">$15</span>}<span className="text-xs align-middle font-light text-slate-500">/monthly</span></h2>
-                        <button className="btn btn-sm mt-8 btn-outline normal-case w-full" onClick={() => openPaymentPage("SUBSCRIPTION")}>Subscribe</button>
+                        <button className="btn mt-8 btn-outline normal-case w-full" onClick={() => openPaymentPage("SUBSCRIPTION")}>Subscribe</button>
                         <div className="w-full mt-4">
                             <ul>
                                 {

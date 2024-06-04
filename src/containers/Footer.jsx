@@ -4,12 +4,15 @@ import Link from "next/link";
 function Footer() {
   return (
     <div>
-      <div className="bg-slate-50 flex justify-center border-t">
+      <div className="bg-white flex justify-center border-t">
         <footer className="footer pt-10 pb-24 px-4 max-w-6xl text-base-content">
           <div className="flex flex-col gap-5">
             <Link href="/">
-              <div className="flex gap-1 items-center">
-                <img
+              <div className="flex gap-2 items-center">
+                <Image
+                  alt="logo"
+                  width={32}
+                  height={32}
                   className="mask inline-block mask-circle"
                   src="/img_logo.svg"
                 />
@@ -57,8 +60,8 @@ function Footer() {
           </div>
         </footer>
       </div>
-      <div className="p-2 flex justify-center bg-slate-50">
-        <div className="max-w-5xl text-slate-600">
+      <div className="p-2 flex justify-center bg-white">
+        <div className="max-w-5xl text-slate-500 text-sm">
           <p>Copyright © 2024 - All right reserved</p>
         </div>
       </div>
