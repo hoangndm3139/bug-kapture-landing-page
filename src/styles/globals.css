@@ -13,6 +13,8 @@ body{
 
 .btn-primary {
     color : white !important;
+    background-color: #D94B3B !important;
+    border: none !important;
 }
 
 .btn-outline:hover {

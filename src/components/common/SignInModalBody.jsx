@@ -120,7 +120,7 @@ const sendMailOtp = async(e) =>{
                     <div className='text-center rounded-xl bg-slate-100 '>
                             <div className='mt-10 md:mb-0 mb-10 inline-block'>
                             <span className='font-bold text-2xl'>
-                        <img className="mask inline-block mr-2 mask-circle w-10" src="/android-chrome-192x192.png" /> Web Design AI
+                        <img className="mask inline-block mr-2 mask-circle w-10" src="/android-chrome-192x192.png" /> Snapifies
                     </span>
                     <div className="carousel   mt-6 w-full">
                         {

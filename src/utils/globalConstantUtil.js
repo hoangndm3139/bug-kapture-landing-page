@@ -17,5 +17,4 @@ module.exports = Object.freeze({
         {title : "Elegance with your signature style.", imageUrl : "https://plus.unsplash.com/premium_photo-1681319553238-9860299dfb0f?auto=format&fit=crop&q=80&w=2831&ixlib=rb-4.0.3"},
         {title : "Website in 20 minutes", imageUrl : "https://plus.unsplash.com/premium_photo-1681319553238-9860299dfb0f?auto=format&fit=crop&q=80&w=2831&ixlib=rb-4.0.3"},
     ],
-
 });

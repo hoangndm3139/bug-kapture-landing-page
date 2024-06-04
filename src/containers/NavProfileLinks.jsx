@@ -47,7 +47,7 @@ function NavProfileLinks() {
         {
             isLoggedIn && 
             <>
-                <button className='btn btn-sm text-xs mr-4 normal-case hover:bg-primary btn-outline' onClick={() => openPricingModal()}>Get Subscription</button>
+                <button className='btn btn-sm mr-4 normal-case hover:bg-primary btn-outline' onClick={() => openPricingModal()}>Get Subscription</button>
                 <div className="md:inline-block hidden md:mt-0 mt-4"><CircleStackIcon className="w-4 h-4 inline-block mr-1"/>{credits} </div>
                 <div className="dropdown  md:mt-0 mt-4 ml-6 dropdown-end">
                     <label tabIndex={0} className="btn md:hidden btn-sm normal-case btn-outline m-1">Account</label>
@@ -80,8 +80,7 @@ function NavProfileLinks() {
         {
             !isLoggedIn && 
             <>
-                <button className='btn btn-sm text-xs mr-4 normal-case md:btn-ghost ' onClick={() => openLoginModal()}>Sign In</button>
-                <Link href="/start-designing"><button className='btn md:mt-0 mt-4 btn-block btn-sm text-xs btn-outline normal-case hover:text-white hover:btn-primary'>Get Started</button></Link>
+                <Link href="/start-designing"><button className='btn md:mt-0 mt-4 normal-case hover:text-white text-white hover:bg-orange bg-orange text-base font-medium hover:border-white hover:opacity-95'>Get Started</button></Link>
             </>
         }
             
