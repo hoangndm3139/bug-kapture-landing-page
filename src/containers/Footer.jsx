@@ -43,18 +43,18 @@ function Footer() {
             <span className="footer-title">Social</span>
             <div className="grid grid-flow-col gap-4">
               <Link href="/" target="_blank">
-                <Image src="/ic_twitter.svg" width={32} height={32} />
+                <Image alt="" src="/ic_twitter.svg" width={32} height={32} />
               </Link>
 
               <Link href="/" target="_blank">
-                <Image src="/ic_linkedin.svg" width={32} height={32} />
+                <Image alt="" src="/ic_linkedin.svg" width={32} height={32} />
               </Link>
 
               <Link href="/" target="_blank">
-                <Image src="/ic_youtube.svg" width={32} height={32} />
+                <Image alt="" src="/ic_youtube.svg" width={32} height={32} />
               </Link>
               <Link href="/" target="_blank">
-                <Image src="/ic_facebook.svg" width={32} height={32} />
+                <Image alt="" src="/ic_facebook.svg" width={32} height={32} />
               </Link>
             </div>
           </div>

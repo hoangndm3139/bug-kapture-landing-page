@@ -16,7 +16,7 @@ function Hero() {
                         </svg>
                     </button></Link>
                 </div>
-                <Image src="/img_project.png" className="object-cover rounded-lg shadow-2xl mt-10 lg:mt-0" width={600} height={500} />
+                <Image alt="" src="/img_project.png" className="object-cover rounded-lg shadow-2xl mt-10 lg:mt-0" width={600} height={500} />
             </div>
         </div>
     )
