@@ -16,7 +16,7 @@ function FeatureSection({title, leftText, showHeading}){
                     
                     <div className="text-center py-24">
                         <h2 className="text-2xl  text-center leading-10 font-bold"> {title}</h2>
-                        <Link href="/start-designing"><button className="btn btn-primary mt-8 px-8 normal-case">Get Started</button></Link>
+                        <Link href="/"><button className="btn btn-primary mt-8 px-8 normal-case">Get Started</button></Link>
                     </div>
 
                     {

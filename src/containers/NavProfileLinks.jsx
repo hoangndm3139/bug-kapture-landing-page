@@ -34,7 +34,7 @@ function NavProfileLinks() {
     //     }
     // };
     return (
-        <Link href="/start-designing"><button className='btn md:mt-0 mt-4 normal-case hover:text-white text-white hover:bg-orange bg-orange text-base font-medium hover:border-white hover:opacity-95'>Get Started</button></Link>
+        <Link href="/"><button className='btn md:mt-0 mt-4 normal-case hover:text-white text-white hover:bg-orange bg-orange text-base font-medium hover:border-white hover:opacity-95'>Get Started</button></Link>
     )
 }
 
