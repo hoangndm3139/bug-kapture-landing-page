@@ -38,7 +38,7 @@ export default function Layout({ children }) {
       </Head>
       <div className="drawer">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
-        <div className="drawer-content flex flex-col">
+        <div className="drawer-content flex flex-col bg-[url('/img_bg.svg')]">
           <div className="overflow-y-auto  flex flex-col ">
             <Navbar />
             <div className="overflow-y-auto">

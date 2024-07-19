@@ -2,27 +2,29 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+html:focus-within {
+    scroll-behavior: smooth !important;
+}
 
-.compareImg{
+.compareImg {
     height: 300px;
 }
 
-body{
-    color : "#252524" !important;
+body {
+    color: "#252524" !important;
 }
 
 .btn-primary {
-    color : white !important;
+    color: white !important;
     background-color: #D94B3B !important;
     border: none !important;
 }
 
 .btn-outline:hover {
-    background:  "#16564d"
+    background: "#16564d"
 }
-.menu li > *:not(ul):not(.menu-title):not(details).active{
-    color : white !important;
+
+.menu li>*:not(ul):not(.menu-title):not(details).active {
+    color: white !important;
     background: #e8b333
 }
-
-

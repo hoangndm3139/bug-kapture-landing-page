@@ -6,8 +6,8 @@ import Image from "next/image";
 
 function Navbar() {
   return (
-    <div className="w-full flex justify-center shadow-lg  ">
-      <div className="navbar py-3 bg-base-100 max-w-6xl">
+    <div className="w-full flex justify-center bg-base-100">
+      <div className="navbar py-3 max-w-6xl">
         <div className="navbar-start ">
           <div className="flex-none lg:hidden">
             <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
@@ -32,7 +32,7 @@ function Navbar() {
         </div>
 
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal custom-menu">
+          <ul className="menu menu-horizontal custom-menu gap-3">
             <Navlinks />
           </ul>
         </div>
